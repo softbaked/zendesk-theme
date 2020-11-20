@@ -1,9 +1,9 @@
 {
-  "name": "evoko-zendesk-theme",
-  "version": "2.0.2",
-  "description": "Evoko theme for Zendesk Guide",
-  "homepage": "https://support.evoko.se/hc/en-us",
-  "repository": "github:evoko/zendesk-theme",
+  "name": "page365-zendesk-theme",
+  "version": "2.1.2",
+  "description": "Page365 Evoko theme for Zendesk Guide",
+  "homepage": "https://www.page365.net",
+  "repository": "github:softbaked/zendesk-theme",
   "license": "Apache-2.0",
   "scripts": {
     "preview": "zat theme preview",
