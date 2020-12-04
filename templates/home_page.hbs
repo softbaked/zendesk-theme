@@ -26,12 +26,12 @@
         {{#if ../has_multiple_categories}}
         <li class="blocks-item">
           <a href='{{url}}' class="blocks-item-link">
-          <i class="fas {{description}}" style="color: white;font-size: 50px;margin: 10px;"></i>
-           
-           {{#is name 'General'}}
+            <i class="fas {{description}}" style="color: white;font-size: 50px;margin: 10px;"></i>
+
+            {{#is name 'General'}}
             <img alt="General" src="{{asset 'home-general.png'}}" />
             {{/is}}
-            
+
             <h2 class="blocks-item-title">{{name}}</h2>
             <!--p class="blocks-item-description">{{excerpt description}}</p-->
           </a>
@@ -51,6 +51,21 @@
         {{/each}}
       </ul>
       {{pagination}}
+      <h1 class="home-categories-heading" id="popular-features-header">ฟีเจอร์ยอดนิยม!</h1>
+      <ul class="article-list">
+        <li class="article-list-item popular-features">
+          <a href="https://page365.zendesk.com/hc/th/articles/900001863766-%E0%B8%AA-%E0%B8%87%E0%B8%82-%E0%B8%AD%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%9A%E0%B8%A3%E0%B8%AD%E0%B8%94%E0%B9%81%E0%B8%84%E0%B8%AA%E0%B8%95-"
+            class="article-list-link">Broadcast ส่งข้อความกลุ่ม</a>
+        </li>
+        <li class="article-list-item popular-features">
+          <a href="https://page365.zendesk.com/hc/th/articles/900001864226"
+            class="article-list-link">พิมพ์ใบกำกับภาษีอย่างย่อ/แบบเต็มรูปแบบ</a>
+        </li>
+        <li class="article-list-item popular-features">
+          <a href="https://page365.zendesk.com/hc/th/articles/900001864206-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%B4%E0%B8%A1%E0%B8%9E-%E0%B9%83%E0%B8%9A%E0%B8%88-%E0%B8%B2%E0%B8%AB%E0%B8%99-%E0%B8%B2-%E0%B9%83%E0%B8%9A%E0%B9%81%E0%B8%9E-%E0%B8%81%E0%B8%82%E0%B8%AD%E0%B8%87-"
+            class="article-list-link">พิมพ์ใบจ่าหน้าพัสดุ</a>
+        </li>
+      </ul>
     </section>
 
     {{!-- {{#if promoted_articles}}
